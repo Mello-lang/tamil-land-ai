@@ -1,0 +1,45 @@
+﻿# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights and checkpoints (large binary files >100MB)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+models/
+*/models/
+**/checkpoint-*/
+
+# Datasets and large archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
+tamil-hwcr/Test-Kaggle/
+tamil-hwcr/Train-Kaggle/
+
+# Environment / Secrets
+.env
+.env.local
+*.secret
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
